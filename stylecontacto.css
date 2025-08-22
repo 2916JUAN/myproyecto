@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(237, 171, 215);
+    color: rgb(10, 10, 10);
+}
+
+
+.imagen {
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(202, 235, 248, 0.699);
+    float:center;
+
+}
+.pie {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ /* Estilo para el navbar  */
+ .navbar {
+    background-color: rgb(57, 57, 250);
+    overflow: hidden;
+ }
+ .navbar a {
+    float: left;
+    display: block;
+    color: rgb(248, 252, 2);
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+ }
+
+ .navbar a:hover {
+    background-color: #4c651dc4;
+    color: rgb(248, 2, 2);
+ }
+ .navbar-toggle {
+    display: none;
+    color: aliceblue;
+    cursor: pointer;
+ }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 105, 232, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+ }
+
+ .sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f79999;
+    display: block;
+    transition: 0.3s;
+ }
+
+ .sidenav a:hover {
+    background-color: chartreuse;
+    color: #05d3f3;
+    text-align: center;
+    
+ }
+
+ .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+ }
+  
